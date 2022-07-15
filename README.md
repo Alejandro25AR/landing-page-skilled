@@ -31,7 +31,7 @@ Users should be able to:
 ### Links
 
 - [Solution URL](https://github.com/Alejandro25AR/landing-page-skilled)
-- [Live Site URL](https://your-live-site-url.com)
+- [Live Site URL](https://alejandro25ar.github.io/landing-page-skilled/)
 
 ## My process
 
