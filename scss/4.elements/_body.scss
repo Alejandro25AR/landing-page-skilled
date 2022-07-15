@@ -1,0 +1,6 @@
+@use '../1.settings/variables';
+body {
+    margin: 0;
+    font-family: map-get(variables.$font-family,"normal");
+    overflow-x: hidden;
+}

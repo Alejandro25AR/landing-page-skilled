@@ -1,0 +1,16 @@
+@use '../1.settings/variables';
+@use '../2.tools/mixins';
+
+.c-hero {
+    @include mixins.flexible(flex, row, wrap, center, center);
+    row-gap: 2rem;
+    margin: 0 1rem;
+
+    &__content-text {
+        width: 320px;
+    }
+    
+    &__content {
+        margin-top: 0;
+    }
+}

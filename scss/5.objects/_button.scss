@@ -1,0 +1,53 @@
+@use '../1.settings/variables';
+
+.o-button {
+    display: inline-block;
+    height: 100%;
+
+    font-size: map-get(variables.$font-device,"botones");
+    font-family: map-get(variables.$font-family,"normal");
+    font-weight: bold;
+    
+    color: variables.$primary-color;
+    border-radius: 99px;
+
+
+    &--blue {
+        padding: 1rem 2rem;
+        background: variables.$primary-dark-color;
+
+        &:hover {
+            background: #666CA3;
+        }
+    }
+
+    &--pink-orange {
+        padding: 1rem 2rem;
+        background: linear-gradient(
+            to bottom,
+            variables.$accent-light-color-two,
+            variables.$accent-light-color-one);
+    
+        &:hover {
+            background: linear-gradient(
+            to bottom,
+            variables.$accent-light-color-one,
+            variables.$accent-light-color-two);
+        }
+    }
+
+    &--purple-violet {
+        padding: 1rem 2rem;
+        background: linear-gradient(
+            to bottom,
+            variables.$accent-dark-color-one,
+            variables.$accent-dark-color-two);
+    
+        &:hover {
+            background: linear-gradient(
+            to bottom,
+            variables.$accent-dark-color-two,
+            variables.$accent-dark-color-one);
+        }
+    }   
+}

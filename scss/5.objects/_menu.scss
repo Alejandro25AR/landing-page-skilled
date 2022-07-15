@@ -1,0 +1,11 @@
+@use '../2.tools/mixins';
+@use '../1.settings/variables';
+
+.o-menu {
+    @include mixins.flexible(flex,row,wrap,space-between,center);
+    position: relative;
+    z-index: variables.$z1;    
+    max-width: 1024px;
+    margin: 0 auto;
+    padding: 1rem;
+}

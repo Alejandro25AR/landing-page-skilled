@@ -1,0 +1,57 @@
+@use "../1.settings/variables";
+@use "../2.tools/mixins";
+
+.c-cards {
+  display: grid;
+  row-gap: 2.5rem;
+  column-gap: 1rem;
+  justify-content: center;
+
+  margin: 0 auto;
+  padding: 0 1rem 4rem;
+
+  background: linear-gradient(to bottom, #ffffff, #eff1fe);
+}
+
+.c-card {
+  @include mixins.flexible(flex, column, wrap, space-between, start);
+  background: variables.$primary-color;
+  padding: 3rem 1.5rem 2rem;
+  height: 250px;
+  width: 320px;
+  border-radius: 1rem;
+  box-shadow: 0 0 2rem #eff1fe;
+
+  &--small {
+    height: auto;
+    max-height: 320px;
+    padding: 2rem;
+    justify-content: start;
+    color: variables.$primary-color;
+    background: linear-gradient(
+      to bottom,
+      variables.$accent-light-color-two,
+      variables.$accent-light-color-one);
+  }
+
+  &__title {
+    color: variables.$primary-dark-color;
+  }
+
+  &__content {
+    font-size: 1rem;
+  }
+
+  &__link {
+    color: variables.$accent-light-color-two;
+    font-weight: bolder;
+  }
+
+  &__symbol {
+    position: relative;
+    height: 0;
+    width:  0;
+    z-index: variables.$z2;
+    top: -75px;
+  } 
+}

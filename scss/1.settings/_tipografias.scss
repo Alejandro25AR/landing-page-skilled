@@ -1,0 +1,37 @@
+@font-face {
+    font-family: "PlusJakartaSans";
+    src: url('../assets/Plus_Jakarta_Sans/PlusJakartaSans-ExtraBold.ttf') format('truetype');
+    font-style: normal;
+    font-weight: 1000;
+}
+
+@font-face {
+    font-family: "PlusJakartaSans";
+    src: url('../assets/Plus_Jakarta_Sans/PlusJakartaSans-Medium.ttf') format('truetype');
+    font-style: normal;
+    font-weight: 500;
+}
+
+$font-family: ("normal": "PlusJakartaSans");
+
+$font-device:(
+    "titulo":       2.4rem,
+    "subtitulo":    1.5rem,
+    "titulo-card":  1.25rem,
+    "logo":         1.5rem,
+    "texto":        1rem,
+    "numero":       2rem,
+    "redireccion":  1rem,   
+);
+
+$font-desktop:(
+    "titulo":       1rem,
+    "subtitulo":    1rem,
+    "logo":         3rem,
+    "titulo-card":  1rem,
+    "texto":        1rem,
+    "numero":       1rem,
+    "botones":      1rem,
+    "redireccion":  1rem,   
+);
+

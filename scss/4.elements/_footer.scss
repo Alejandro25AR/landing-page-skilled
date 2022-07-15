@@ -1,0 +1,7 @@
+@use '../1.settings/variables';
+@use '../2.tools/mixins';
+
+footer {
+    padding: 1rem 0;
+    background-color: variables.$primary-dark-color;
+}

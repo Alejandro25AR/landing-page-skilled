@@ -1,0 +1,30 @@
+@media screen and (min-width: 768px) {
+  .c-hero {
+    & {
+      max-width: 48rem;
+      margin: 0 auto;
+    }
+    &__image{
+      width: 20rem;
+      height: 37.5rem;  
+      & img {
+        position: relative;
+        left: -1.5rem;
+        top: -10rem;
+      }
+    }
+  }
+
+  .c-cards{
+    grid-template-columns: repeat(2,auto);
+    padding: 0 2rem 4rem;
+
+    & .c-card:first-child {
+      padding-top: 5rem;
+    }
+  }
+
+  .o-menu {
+    width: 43rem;
+  }
+}

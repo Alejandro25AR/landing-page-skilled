@@ -1,0 +1,7 @@
+@use '../1.settings/variables';
+
+p {
+    margin-bottom: 1.4rem;
+    line-height: 1.25rem;
+    color: variables.$neutral-color;
+}

@@ -1,0 +1,27 @@
+// 1.Settigs 
+
+// 2.tools
+
+// 3.generic 
+@use '3.generic/normalize';
+@use '3.generic/box-sizing';
+
+// 4.elements
+@use '4.elements/body';
+@use '4.elements/headers';
+@use '4.elements/paragraphs';
+@use '4.elements/links';
+@use '4.elements/footer';
+@use '4.elements/buttons';
+
+// 5.objects 
+@use '5.objects/button';
+@use '5.objects/menu';
+
+// 6.components 
+@use '6.components/card';
+@use '6.components/hero';
+
+// 7.Responsive
+@use '7.responsive/tablet';
+@use '7.responsive/desktop';
